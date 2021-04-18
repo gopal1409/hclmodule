@@ -1,12 +1,12 @@
 variable "environment" {
-    default = "stg"
+    default = "stage"
 }
 variable "vpc_id" {
     description = "provide vpc_id"
 }
-variable "location" {
+variable "region" {
     description = "it will define the aws region"
-    type = string
+    default = "us-east-1"
 }
 variable "http_port" {
     default = "80"
