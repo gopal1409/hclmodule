@@ -1,5 +1,5 @@
 module "webserver" {
-    source = "git::https://https://github.com/gopal1409/hclmodule.git
+    #source = "git::https://https://github.com/gopal1409/hclmodule.git
     source = "../../module/webserver-elb-asg"
     instance_type = "t2.micro"
     environment = "prod"
