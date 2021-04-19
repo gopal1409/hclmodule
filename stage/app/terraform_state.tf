@@ -4,5 +4,6 @@ terraform {
         bucket = "terrform-mystate-gopal"
         key= "deploy-stage/terraform.tfstate"
         region = "us-east-2"
+        dynamodb_table = "terraform-state"
     }
 }
